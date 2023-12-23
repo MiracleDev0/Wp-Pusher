@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wp-Pusher</title>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <img src="/image/wppusher-logo.png" alt="logo">
+            <nav>
+                <ul>
+                    <li><a href="#">Download</a></li>
+                    <li><a href="#">Learn more</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Help</a></li>
+                    <li><button>Account</button></li>
+                </ul>     
+            </nav>
+        </header>
+        <section class="main">
+            <section class="subOne">
+                <h2>Checkout</h2>
+                <div class="flex">
+                    <div class="oneTwo">1</div>
+                    <h3>Your Basic Information</h3>
+                </div>
+                <form action="/submit" method="post">
+                    <div class="divOne">
+                        <div id="grid">
+                            <div>
+                                <label for="First Name" id="First-Name">First Name</label>
+                                <input type="text" name="First Name" placeholder="Jane">
+                            </div>
+                            <div>
+                                <label for="Last Name" id="Last-Name">Last Name</label>
+                                <input type="text" name="Last Name" placeholder="Doe">
+                            </div>
+                        </div> 
+                        <label for="E-mail" id="E-mail">E-mail</label>
+                        <input class="special" type="email" name="E-mail" placeholder="janedoe@example.com">
+                    </div>
+                    <div class="divTwo">
+                        <div class="flex">
+                            <div class="oneTwo">2</div>
+                            <h3>Your Payment Information</h3> 
+                        </div>
+                        <label for="Credit card" id="Credit-card">Credit card</label>
+                        <input type="text" placeholder="Card number">
+                        <div class="loner"></div>
+                        <button>Buy Wp Pusher</button>
+                        <p><img src="/image/Mask.svg" alt=""><strong>Need any help?</strong> Don't hesitate to <a href="#">contact <br> support!</a></p>
+                    </div>    
+                </form>
+                <img src="/image/powered_by_stripe.png" alt="powered by stripe">
+            </section>
+            <section class="subTwo">
+                <h4>Freelancer</h4>
+                <div class="testing">
+                    <div><span class="dollar">$</span></div>
+                    <div><span class="ninetyNine">99</span></div>
+                    <div><span class="year">/  year</span></div>
+                </div>
+                <p>Automatically renews <br> after 1 year</p>
+                <ul>
+                    <li><img src="/image/Combined-Shape.png" alt="">Use on 5 clients side</li>
+                    <li><img src="/image/Combined-Shape.png" alt="">Private repositories</li>
+                    <li><img src="/image/Combined-Shape.png" alt="">Email support</li>
+                </ul>
+                <div class="banana">
+                    <p>Need 20 clients sites?</p>
+                    <p><a href="#">Switch to the Agency plan</a></p>
+                </div>
+                <p class="paragraph">FTP is horrible to deal with. WP Pusher solves that issue, and the customer support is awesome</p>
+                <div class="lastOne">
+                    <span><img src="/image/Bitmap.png" alt="picture"></span>
+                    <span  class="lastSpan">Kirk Beard</span>
+                </div>
+            </section>
+        </section>
+        <p class="lastP"> &copy; 2018 WP Pusher IVS - <a href="#">Terms of Service</a></p>
+        
+    </main>
+</body>
+</html>
